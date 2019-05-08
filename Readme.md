@@ -1,6 +1,7 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Алексей Гридасов](https://up.htmlacademy.ru/htmlcss/25/user/169324).
+* Наставник: [Андрей Островский](https://htmlacademy.ru/profile/grandmaus).
 
 ---
 
