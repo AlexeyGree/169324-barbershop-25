@@ -6,6 +6,7 @@
 *.pdf
 *.psd
 *.sublime*
+barbershop/
 node_modules/
 npm-debug.*
 Thumbs.db
