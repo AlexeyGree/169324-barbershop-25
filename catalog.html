@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Барбершоп каталог товаров</title>
+  <meta charset="utf-8">
+  <title>Барбершоп каталог товаров</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css">
 </head>
-<body class="page shop">
+<body class="page inner shop">
   <header class="header">
     <nav class="main-nav">
       <a class="logo" href="index.html" aria-label="Переход на главную страницу">
@@ -39,13 +41,13 @@
     <h1 class="headline-main">Средства для ухода</h1>
     <ul class="breadcrumbs">
       <li>
-        <a href="index.html">Главная</a>
+        <a class="breadcrumbs-link" href="index.html">Главная</a>
       </li>
       <li>
-        <a href="shop.html">Магазин</a>
+        <a class="breadcrumbs-link" href="shop.html">Магазин</a>
       </li>
       <li>
-        <a class="breadcrumbs-current">Средства для ухода</a>
+        <a class="breadcrumbs-link breadcrumbs-current">Средства для ухода</a>
       </li>
     </ul>
     <section class="catalog">
@@ -55,43 +57,43 @@
           <fieldset class="filters-field filters-brands">
             <legend>Производители:</legend>
             <p class="filters-paragraph">
-              <label class="filters-label" for="brand-1">Baxter of california</label>
-              <input class="fitlers-trigger filters-checkbox" type="checkbox" name="brand-one" id="brand-1" checked>
+              <input class="visually-hidden filters-trigger" type="checkbox" name="brand-one" id="brand-1" checked>
+              <label class="filters-label filters-label-check" for="brand-1">Baxter of california</label>
             </p>
             <p class="filters-paragraph">
-              <label class="filters-label" for="brand-2">Mr natty</label>
-              <input class="fitlers-trigger filters-checkbox" type="checkbox" name="brand-two" id="brand-2">
+              <input class="visually-hidden filters-trigger" type="checkbox" name="brand-two" id="brand-2">
+              <label class="filters-label filters-label-check" for="brand-2">Mr natty</label>
             </p>
             <p class="filters-paragraph">
-              <label class="filters-label" for="brand-3">Suavecito</label>
-              <input class="fitlers-trigger filters-checkbox" type="checkbox" name="brand-three" id="brand-3" checked>
+              <input class="visually-hidden filters-trigger" type="checkbox" name="brand-three" id="brand-3" checked>
+              <label class="filters-label filters-label-check" for="brand-3">Suavecito</label>
             </p>
             <p class="filters-paragraph">
-              <label class="filters-label" for="brand-4">Malin+goetz</label>
-              <input class="fitlers-trigger filters-checkbox" type="checkbox" name="brand-four" id="brand-4">
+              <input class="visually-hidden filters-trigger" type="checkbox" name="brand-four" id="brand-4">
+              <label class="filters-label filters-label-check" for="brand-4">Malin+goetz</label>
             </p>
             <p class="filters-paragraph">
-              <label class="filters-label" for="brand-5">Murray's</label>
-              <input class="fitlers-trigger filters-checkbox" type="checkbox" name="brand-five" id="brand-5">
+              <input class="visually-hidden filters-trigger" type="checkbox" name="brand-five" id="brand-5">
+              <label class="filters-label filters-label-check" for="brand-5">Murray's</label>
             </p>
             <p class="filters-paragraph">
-              <label class="filters-label" for="brand-6">American crew</label>
-              <input class="fitlers-trigger filters-checkbox" type="checkbox" name="brand-six" id="brand-6" checked>
+              <input class="visually-hidden filters-trigger" type="checkbox" name="brand-six" id="brand-6" checked>
+              <label class="filters-label filters-label-check" for="brand-6">American crew</label>
             </p>
           </fieldset>
           <fieldset class="filters-field filters-groups">
             <legend>Группы товаров:</legend>
             <p class="filters-paragraph">
-              <label class="filters-label" for="group-1">Бритвенные принадлежности</label>
-              <input class="filters-trigger filters-radio" type="radio" name="radio-btn" value="1" id="group-1">
+              <input class="visually-hidden filters-trigger" type="radio" name="radio-btn" value="1" id="group-1">
+              <label class="filters-label filters-label-radio" for="group-1">Бритвенные принадлежности</label>
             </p>
             <p class="filters-paragraph">
-              <label class="filters-label" for="group-2">Средства для ухода</label>
-              <input class="filters-trigger filters-radio" type="radio" name="radio-btn" value="2" id="group-2" checked>
+              <input class="visually-hidden filters-trigger" type="radio" name="radio-btn" value="2" id="group-2" checked>
+              <label class="filters-label filters-label-radio" for="group-2">Средства для ухода</label>
             </p>
             <p class="filters-paragraph">
-              <label class="filters-label" for="group-3">Аксессуары</label>
-              <input class="filters-trigger filters-radio" type="radio" name="radio-btn" value="3" id="group-3">
+              <input class="visually-hidden filters-trigger" type="radio" name="radio-btn" value="3" id="group-3">
+              <label class="filters-label filters-label-radio" for="group-3">Аксессуары</label>
             </p>
           </fieldset>
           <button class="btn filters-btn" type="submit">Показать</button>
