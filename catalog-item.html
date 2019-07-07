@@ -8,7 +8,7 @@
 </head>
 <body class="page inner item">
   <header class="header">
-    <nav class="main-nav">
+    <nav class="main-nav container">
       <a class="logo" href="index.html" aria-label="Переход на главную страницу">
         <img src="img/logo.svg" width="111" height="24" alt="Логотип барбершопа «Бородинский»">
       </a>
@@ -54,83 +54,83 @@
       </li>
     </ul>
 
-    <section class="item-gallery">
-      <h2 class="visually-hid">Галерея товара</h2>
-      <figure class="mid-image">
-        <img src="img/gallery-item-1.jpg" width="980" height="1062" alt="Фото товара">
-      </figure>
-      <ul class="gallery-list">
-        <li class="gallery-item">
-          <a href="mid-image.html" area-label="Выбрать картинку в превью">
-            <img src="img/gallery-item-2.jpg" width="140" height="149" alt="Фото товара">
-          </a>
-        </li>
-        <li class="gallery-item">
-          <a href="mid-image.html" area-label="Выбрать картинку в превью">
-            <img src="img/gallery-item-3.jpg" width="140" height="149" alt="Фото товара">
-          </a>
-        </li>
-        <li class="gallery-item">
-          <a href="mid-image.html" area-label="Выбрать картинку в превью">
-            <img src="img/gallery-item-4.jpg" width="140" height="149" alt="Фото товара">
-          </a>
-        </li>
-      </ul>
-    </section>
+    <div class="item-container">
+      <section class="item-gallery">
+        <h2 class="visually-hid">Галерея товара</h2>
+        <div class="mid-image">
+          <img src="img/gallery-item-1.jpg" width="980" height="1062" alt="Фото товара">
+        </div>
+        <ul class="gallery-list">
+          <li class="gallery-item">
+            <a href="mid-image.html" area-label="Выбрать картинку в превью">
+              <img src="img/gallery-item-2.jpg" width="140" height="149" alt="Фото товара">
+            </a>
+          </li>
+          <li class="gallery-item">
+            <a href="mid-image.html" area-label="Выбрать картинку в превью">
+              <img src="img/gallery-item-3.jpg" width="140" height="149" alt="Фото товара">
+            </a>
+          </li>
+          <li class="gallery-item">
+            <a href="mid-image.html" area-label="Выбрать картинку в превью">
+              <img src="img/gallery-item-4.jpg" width="140" height="149" alt="Фото товара">
+            </a>
+          </li>
+        </ul>
+      </section>
 
-    <section class="item-desc">
-      <h2 class="visually-hid">Описание товара</h2>
-      <div class="availability">
-        <p>Есть в наличии</p>
-        <p>Артикул: Dexter-ae</p>
-      </div>
-      <p>
-        Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.
-      </p>
-      <div class="item-price">
-        <p>2900 &#8381;</p>
-        <a class="btn buy-btn" href="basket.html">Купить</a>
-      </div>
-    </section>
-
-    <section class="item-equip">
-      <h2 class="visually-hid">Комплектация товара</h2>
-      <b>В набор входят:</b>
-      <ul class="item-equip-list">
-        <li>Средство для умывания (50 мл)</li>
-        <li>Увлажняющий крем (50 мл)</li>
-        <li>Крем для бритья (50 мл)</li>
-        <li>Крем после бритья, шампунь (50 мл)</li>
-        <li>Удобная кожаная косметичка</li>
-      </ul>
-    </section>
+      <section class="item-desc">
+        <h2 class="visually-hid">Описание товара</h2>
+        <div class="availability">
+          <p>Есть в наличии</p>
+          <p>Артикул: Dexter-ae</p>
+        </div>
+        <p>
+          Travel Kit – необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все, что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем, крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.
+        </p>
+        <p class="item-price">
+          <b>2900 &#8381;</b>
+          <a class="btn buy-btn" href="basket.html">Купить</a>
+        </p>
+        <h3>В набор входят:</h3>
+        <ul class="item-equip-list">
+          <li>Средство для умывания (50 мл)</li>
+          <li>Увлажняющий крем (50 мл)</li>
+          <li>Крем для бритья (50 мл)</li>
+          <li>Крем после бритья, шампунь (50 мл)</li>
+          <li>Удобная кожаная косметичка</li>
+        </ul>
+      </section>
+    </div>
   </main>
 
   <footer class="footer">
-    <p class="footer-contacts">
-      Барбершоп «Бородинский»<br>
-      Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-      <a class="map-link" href="map.html">Как нас найти?</a><br>
-      Телефон: +7 (812) 666-02-66
-    </p>
-    <div class="footer-social">
-      <b>Давайте дружить!</b>
-      <ul>
-        <li>
-          <a class="social-btn" aria-label="Вконтакте" href="vk.com">Вконтакте</a>
-        </li>
-        <li>
-          <a class="social-btn" aria-label="Фейсбук" href="facebook.com">Фейсбук</a>
-        </li>
-        <li>
-          <a class="social-btn" aria-label="Инстаграм" href="instagram.com">Инстаграм</a>
-        </li>
-      </ul>
+    <div class="container">
+      <p class="footer-contacts">
+        Барбершоп «Бородинский»<br>
+        Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+        <a class="map-link" href="map.html">Как нас найти?</a><br>
+        Телефон: +7 (812) 666-02-66
+      </p>
+      <div class="footer-social">
+        <b>Давайте дружить!</b>
+        <ul>
+          <li>
+            <a class="social-btn" aria-label="Вконтакте" href="vk.com">Вконтакте</a>
+          </li>
+          <li>
+            <a class="social-btn" aria-label="Фейсбук" href="facebook.com">Фейсбук</a>
+          </li>
+          <li>
+            <a class="social-btn" aria-label="Инстаграм" href="instagram.com">Инстаграм</a>
+          </li>
+        </ul>
+      </div>
+      <p class="footer-copyright">
+        <b>Разработано:</b>
+        <a class="btn copyright-btn" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
+      </p>
     </div>
-    <p class="footer-copyright">
-      <b>Разработано:</b>
-      <a class="btn copyright-btn" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
-    </p>
   </footer>
 
   <section class="modal modal-login">
